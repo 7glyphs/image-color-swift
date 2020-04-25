@@ -23,7 +23,7 @@
 //  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
-
+#if os(iOS)
 import UIKit
 
 /// Extension of UIImage for methods related to creating images from colors
@@ -57,3 +57,4 @@ extension UIImage {
         return image
     }
 }
+#endif
